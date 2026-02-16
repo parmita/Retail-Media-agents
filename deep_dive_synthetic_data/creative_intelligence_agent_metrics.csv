@@ -1,0 +1,11 @@
+date,agent_name,campaign_id,creative_id,format,impressions,clicks,ctr,landing_page_views,orders,cvr,spend,revenue,roas,fatigue_score,insight_signal,recommended_action
+2026-01-01,Creative Intelligence Agent,CMP-101,CR-11,static_banner,80000,2560,0.032,2100,176,0.084,2816,12200,4.33,42,stable,maintain
+2026-01-02,Creative Intelligence Agent,CMP-101,CR-12,video_short,85000,3230,0.038,2710,221,0.082,3197.7,15780,4.93,35,high_opportunity,scale_video_variant
+2026-01-03,Creative Intelligence Agent,CMP-101,CR-11,static_banner,79000,2370,0.03,1920,154,0.08,2725.5,10620,3.9,68,optimization_gap,refresh_primary_copy
+2026-01-04,Creative Intelligence Agent,CMP-204,CR-21,carousel,62000,1860,0.03,1510,112,0.074,2641.2,8140,3.08,55,optimization_gap,test_new_value_prop
+2026-01-05,Creative Intelligence Agent,CMP-204,CR-22,video_long,64000,2240,0.035,1880,149,0.079,2996,10580,3.53,44,high_opportunity,increase_impression_share
+2026-01-06,Creative Intelligence Agent,CMP-204,CR-21,carousel,59000,1593,0.027,1240,88,0.071,2293.9,6120,2.67,74,efficiency_risk,rotate_out_fatigued_creative
+2026-01-07,Creative Intelligence Agent,CMP-318,CR-31,video_short,91000,3458,0.038,2900,254,0.088,3112.2,18400,5.91,37,high_opportunity,expand_to_new_audience
+2026-01-08,Creative Intelligence Agent,CMP-318,CR-32,static_banner,90500,2805,0.031,2250,177,0.079,2692.8,12580,4.67,61,optimization_gap,update_visual_hook
+2026-01-09,Creative Intelligence Agent,CMP-318,CR-31,video_short,89000,3026,0.034,2460,201,0.082,2905,14760,5.08,53,stable,maintain
+2026-01-10,Creative Intelligence Agent,CMP-412,CR-41,carousel,70000,2100,0.03,1680,129,0.077,2520,9570,3.8,47,stable,maintain
