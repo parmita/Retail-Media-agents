@@ -1,0 +1,11 @@
+date,agent_name,campaign_id,daily_budget,planned_spend,actual_spend,pacing_pct,remaining_budget,end_of_day_risk,hourly_spike_index,orders,revenue,roas,insight_signal,recommended_action
+2026-01-01,Budget Pacing Agent,CMP-101,6000,5000,4956,99.1,1044,on_track,41,310,21420,4.32,stable,maintain
+2026-01-02,Budget Pacing Agent,CMP-101,6000,5200,5220,100.4,780,on_track,45,332,23000,4.41,stable,maintain
+2026-01-03,Budget Pacing Agent,CMP-101,6000,5100,4855.6,95.2,1144.4,under_delivery,38,286,19840,4.09,optimization_gap,shift_budget_to_peak_hours
+2026-01-04,Budget Pacing Agent,CMP-204,5000,4300,4189,97.4,811,under_delivery,36,205,14700,3.51,optimization_gap,boost_morning_bid_modifier
+2026-01-05,Budget Pacing Agent,CMP-204,5000,4500,4443.6,98.7,556.4,on_track,44,238,16920,3.81,stable,maintain
+2026-01-06,Budget Pacing Agent,CMP-204,5000,4400,3888,88.4,1112,under_delivery,31,182,12640,3.25,efficiency_risk,trim_low_cvr_segments
+2026-01-07,Budget Pacing Agent,CMP-318,6500,5400,5407.5,100.1,1092.5,on_track,47,415,28120,5.2,stable,maintain
+2026-01-08,Budget Pacing Agent,CMP-318,6500,5600,5541.4,99.0,958.6,on_track,49,438,30280,5.46,high_opportunity,raise_daily_budget_by_8pct
+2026-01-09,Budget Pacing Agent,CMP-318,6500,5500,5189.4,94.4,1310.6,under_delivery,35,372,25160,4.85,optimization_gap,recover_evening_delivery
+2026-01-10,Budget Pacing Agent,CMP-412,5200,4200,4165.8,99.2,1034.2,on_track,39,236,16090,3.86,stable,maintain

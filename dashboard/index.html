@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retail Media Agent Deep-Dive UI</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Retail Media Agent Deep-Dive Dashboard</h1>
+      <p>Insights generated directly from synthetic agent datasets.</p>
+    </header>
+
+    <main>
+      <section class="summary-grid" id="summary-grid"></section>
+
+      <section class="panel">
+        <h2>Cross-Agent Insight Signals</h2>
+        <div id="signal-breakdown" class="chip-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Top Recommended Actions</h2>
+        <ol id="action-list"></ol>
+      </section>
+
+      <section class="panel">
+        <h2>Detailed Agent Metrics</h2>
+        <label for="agent-select">Choose agent:</label>
+        <select id="agent-select"></select>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Campaign</th>
+                <th>Spend</th>
+                <th>Revenue</th>
+                <th>Orders</th>
+                <th>ROAS</th>
+                <th>Signal</th>
+                <th>Recommended Action</th>
+              </tr>
+            </thead>
+            <tbody id="agent-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

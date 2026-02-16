@@ -1,0 +1,11 @@
+date,agent_name,campaign_id,publisher_id,placement_type,impressions,viewability_pct,invalid_traffic_pct,brand_safety_score,clicks,ctr,orders,spend,revenue,roas,insight_signal,recommended_action
+2026-01-01,Inventory Quality Agent,CMP-101,PUB-10,product_detail_page,64000,78.2,1.4,92,2240,0.035,171,2464,12690,5.15,high_opportunity,increase_allocation_high_quality
+2026-01-02,Inventory Quality Agent,CMP-101,PUB-11,search_results_top,67000,75.4,1.7,89,2280,0.034,168,2553.6,11840,4.64,stable,maintain
+2026-01-03,Inventory Quality Agent,CMP-101,PUB-14,run_of_site,61000,61.3,3.8,74,1647,0.027,96,2141.1,6640,3.1,efficiency_risk,exclude_low_quality_placement
+2026-01-04,Inventory Quality Agent,CMP-204,PUB-21,category_landing,52000,72.1,2.1,84,1664,0.032,109,2329.6,8010,3.44,optimization_gap,negotiate_preferred_deal
+2026-01-05,Inventory Quality Agent,CMP-204,PUB-24,offsite_display,57000,64.5,3.1,79,1710,0.03,101,2394,7120,2.97,efficiency_risk,apply_supply_path_filter
+2026-01-06,Inventory Quality Agent,CMP-204,PUB-25,offsite_video,60000,77.8,1.9,88,2100,0.035,149,2940,10950,3.72,high_opportunity,scale_video_supply
+2026-01-07,Inventory Quality Agent,CMP-318,PUB-31,search_results_top,74000,80.6,1.3,94,2886,0.039,246,3174.6,19120,6.02,high_opportunity,prioritize_tier1_inventory
+2026-01-08,Inventory Quality Agent,CMP-318,PUB-33,product_detail_page,70000,76.4,1.6,91,2520,0.036,211,2898,16460,5.68,stable,maintain
+2026-01-09,Inventory Quality Agent,CMP-318,PUB-36,run_of_site,68000,62.7,3.5,76,1904,0.028,132,2475.2,9560,3.86,optimization_gap,cap_low_viewability_supply
+2026-01-10,Inventory Quality Agent,CMP-412,PUB-41,category_landing,56000,73.3,2.0,87,1680,0.03,124,2268,8870,3.91,stable,maintain
