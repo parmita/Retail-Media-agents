@@ -15,6 +15,13 @@ function parseCsv(text) {
   });
 }
 
+function normalizeRow(row) {
+  return {
+    ...row,
+    spend: row.spend ?? row.actual_spend ?? '0',
+  };
+}
+
 function sum(rows, field) {
   return rows.reduce((acc, row) => acc + Number(row[field] || 0), 0);
 }
@@ -28,7 +35,7 @@ async function loadAllData() {
     DATA_FILES.map(async (dataFile) => {
       const response = await fetch(`../${dataFile.file}`);
       const text = await response.text();
-      return [dataFile.name, parseCsv(text)];
+      return [dataFile.name, parseCsv(text).map(normalizeRow)];
     })
   );
   return Object.fromEntries(entries);
